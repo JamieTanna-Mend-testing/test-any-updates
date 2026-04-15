@@ -5,6 +5,5 @@
   ],
   "constraints": {
     "golang": "1.23.0"
-  },
-  "osvVulnerabilityAlerts": true
+  }
 }
