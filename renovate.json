@@ -5,5 +5,8 @@
   ],
   "constraints": {
     "golang": "1.23.0"
+  },
+  "env": {
+    "GOPRIVATE": "github.com/JamieTanna-Mend-testing/private-go-module-child"
   }
 }
