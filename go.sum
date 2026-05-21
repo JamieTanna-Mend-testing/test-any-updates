@@ -1,4 +1,6 @@
 github.com/JamieTanna-Mend-testing/private-go-module-child v0.1.0 h1:DhOX2uXD/JaJJul8k+M4/agl+qudpZORjZUWny9LKeU=
 github.com/JamieTanna-Mend-testing/private-go-module-child v0.1.0/go.mod h1:eaLNKYDI1RdmtmcxVCDVAGbnTbQUrUe8I8sAyLeBXFc=
+github.com/JamieTanna-Mend-testing/private-go-module-child v0.2.0 h1:TiRr1uerCkd8AdZ/5xQ19NfD08uYoBWc5T2kkO3BLTs=
+github.com/JamieTanna-Mend-testing/private-go-module-child v0.2.0/go.mod h1:eaLNKYDI1RdmtmcxVCDVAGbnTbQUrUe8I8sAyLeBXFc=
 github.com/oapi-codegen/nullable v1.0.0 h1:FjV9h/GLxYxc3wSSFUafVMvi0lhrpvUcCbEkE04y0fw=
 github.com/oapi-codegen/nullable v1.0.0/go.mod h1:KUZ3vUzkmEKY90ksAmit2+5juDIhIZhfDl+0PwOQlFY=
