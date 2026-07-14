@@ -1,27 +1,6 @@
 {
   "$schema": "https://docs.renovatebot.com/renovate-schema.json",
   "extends": [
-    "config:best-practices"
-  ],
-  "constraints": {
-    "golang": "1.23.0"
-  },
-  "env": {
-    "GOPRIVATE": "github.com/JamieTanna-Mend-testing/private-go-module-child"
-  },
-  "vulnerabilityAlerts": {
-    "branchTopic": "{{{datasource}}}-{{{depNameSanitized}}}-{{{vulnerabilitySeverity}}}-vulnerability",
-    "prBodyDefinitions": {
-      "Severity": "{{{vulnerabilitySeverity}}}"
-    },
-    "prBodyColumns": [
-      "Package",
-      "Type",
-      "Update",
-      "Change",
-      "Pending",
-      "Severity"
-    ]
-  },
-  "osvVulnerabilityAlerts": true
+    "security:only-security-updates"
+  ]
 }
