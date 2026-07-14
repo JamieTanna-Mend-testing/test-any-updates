@@ -10,7 +10,6 @@
     "GOPRIVATE": "github.com/JamieTanna-Mend-testing/private-go-module-child"
   },
   "vulnerabilityAlerts": {
-    "enabled": true,
     "branchTopic": "{{{datasource}}}-{{{depNameSanitized}}}-{{{vulnerabilitySeverity}}}-vulnerability"
   },
   "osvVulnerabilityAlerts": true
