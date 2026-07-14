@@ -8,5 +8,8 @@
   },
   "env": {
     "GOPRIVATE": "github.com/JamieTanna-Mend-testing/private-go-module-child"
+  },
+  "vulnerabilityAlerts": {
+    "enabled": true
   }
 }
