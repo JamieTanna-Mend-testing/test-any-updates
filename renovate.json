@@ -10,7 +10,18 @@
     "GOPRIVATE": "github.com/JamieTanna-Mend-testing/private-go-module-child"
   },
   "vulnerabilityAlerts": {
-    "branchTopic": "{{{datasource}}}-{{{depNameSanitized}}}-{{{vulnerabilitySeverity}}}-vulnerability"
+    "branchTopic": "{{{datasource}}}-{{{depNameSanitized}}}-{{{vulnerabilitySeverity}}}-vulnerability",
+    "prBodyDefinitions": {
+      "Severity": "{{{vulnerabilitySeverity}}}"
+    },
+    "prBodyColumns": [
+      "Package",
+      "Type",
+      "Update",
+      "Change",
+      "Pending",
+      "Severity"
+    ]
   },
   "osvVulnerabilityAlerts": true
 }
