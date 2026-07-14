@@ -5,6 +5,7 @@ import (
 
 	m "github.com/JamieTanna-Mend-testing/private-go-module-child"
 	"github.com/oapi-codegen/nullable"
+	_ "golang.org/x/net/http/httpproxy"
 )
 
 func main() {
